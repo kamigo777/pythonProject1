@@ -26,3 +26,7 @@ for guessesTaken in range(6):
 if guess == number:
     guessesTaken = str(guessesTaken + 1)
     print ('Отлично ' + myName + '! Ты справился ' + guessesTaken + 'попытки!')
+
+if guess != number:
+    number = str(number)
+    print('Увы. Я загадала число ' + number + '.')
