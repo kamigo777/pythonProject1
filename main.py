@@ -25,4 +25,4 @@ for guessesTaken in range(6):
 
 if guess == number:
     guessesTaken = str(guessesTaken + 1)
-    print ('Отлично ' +myName+ '! Ты справился ' +guessesTaken + 'попытки!')
+    print ('Отлично ' + myName + '! Ты справился ' + guessesTaken + 'попытки!')
